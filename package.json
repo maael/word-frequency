@@ -4,7 +4,7 @@
   "description": "A module to calculate word frequency for text or html.",
   "main": "index.js",
   "scripts": {
-    "test": "gulp test"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -23,8 +23,7 @@
   },
   "homepage": "https://github.com/maael/word-frequency",
   "devDependencies": {
-    "gulp": "^3.8.10",
-    "gulp-mocha": "^2.0.0",
+    "chai": "^1.10.0",
     "mocha": "^2.1.0"
   }
 }
